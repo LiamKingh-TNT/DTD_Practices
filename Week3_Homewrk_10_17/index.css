@@ -1,14 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300;400;500;700;900&display=swap');
-html{
-    background-color: #EDF2C5;
-    box-sizing: border-box;
-}
 
 body{
-    width: 1440px;
-    height: 1024px;
     background-color: #EDF2C5;
     font-family: 'Noto Sans' ;
+    margin: 0;
 }
 header{
     display: flex;
@@ -46,7 +41,8 @@ header{
 }
 .Line{
     height: 24px;
-    border: 0.5px solid #778A50;
+    width: 0.1px;
+    background-color: #778A50;
 }
 .Login,.Join{
     display: flex;
@@ -181,19 +177,18 @@ header{
 .Line2{
     display: grid;
     width: 496px;
-    height: 0;
-    border: solid 0.5px #7d7d7d;
+    height: 0.1px;
     margin-left: 16px;
     margin-top: -10px;
 }
-footer{
+.footer{
     display: flex;
-    align-items: center;
+    align-content: center;
     justify-content: center;
     color: #EDF2C5;
     background-color: #778A50;
     height: 60px;
-    width: 1440;
     margin-top: 117px;
     font-size: 12px;
+    width: 100%;
 }
