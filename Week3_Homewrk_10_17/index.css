@@ -1,5 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300;400;500;700;900&display=swap');
-
+@keyframes header_larger{
+    from{
+        padding: 3px 8px;
+    }
+    to
+    {
+        padding: 5px 10px;
+    }
+}
+.head_btn:hover,.head_btn:active{
+    color: #b8e65d;
+    background-color: #778a5059;
+    border: 1px solid #778A50;
+    animation-name: header_larger;
+    animation-duration: 0.5s;
+    padding: 5px 10px;
+}
+.head_btn:active, .head_btn:visited, .head_btn:link{
+    text-decoration: none;
+}
 body{
     background-color: #EDF2C5;
     font-family: 'Noto Sans' ;
